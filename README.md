@@ -1,92 +1,91 @@
-# The Cayman theme
+# RobinShare Blog Theme
 
 [![Build Status](https://travis-ci.org/pages-themes/cayman.svg?branch=master)](https://travis-ci.org/pages-themes/cayman) [![Gem Version](https://badge.fury.io/rb/jekyll-theme-cayman.svg)](https://badge.fury.io/rb/jekyll-theme-cayman)
 
-*Cayman is a Jekyll theme for GitHub Pages. You can [preview the theme to see what it looks like](http://pages-themes.github.io/cayman), or even [use it today](#usage).*
+*Cayman是GitHub页主题. 你可以 [预览主题样式](http://pages-themes.github.io/cayman), 或者直接 [使用该主题样式](#usage).*
 
 ![Thumbnail of cayman](thumbnail.png)
 
-## Usage
+## 使用方法
 
-To use the Cayman theme:
+如何使用Cayman主题样式:
 
-1. Add the following to your site's `_config.yml`:
+1. 添加以下内容到你的站配置文件 `_config.yml`:
 
-    ```yml
+   ```yml
     theme: jekyll-theme-cayman
-    ```
+   ```
 
-2. Optionally, if you'd like to preview your site on your computer, add the following to your site's `Gemfile`:
+2. 自己喜欢, 如果你想在自己计算机上预览主题样式效果, 添加以下内容到你的站配置文件 `Gemfile`:
 
-    ```ruby
+   ```ruby
     gem "github-pages", group: :jekyll_plugins
-    ```
+   ```
 
 
+## 自定义
 
-## Customizing
+### 变量配置
 
-### Configuration variables
-
-Cayman will respect the following variables, if set in your site's `_config.yml`:
+如果要设置你的站配置文件 `_config.yml`，Cayman主题将支持以下配置变量 :
 
 ```yml
 title: [The title of your site]
 description: [A short description of your site's purpose]
 ```
 
-Additionally, you may choose to set the following optional variables:
+此外，你可以选择性配置以下可选配置变量：
 
 ```yml
 show_downloads: ["true" or "false" to indicate whether to provide a download URL]
 google_analytics: [Your Google Analytics tracking ID]
 ```
 
-### Stylesheet
+### 样式页
 
-If you'd like to add your own custom styles:
+如果你想添加你的自定义样式的话，按以下步骤进行:
 
-1. Create a file called `/assets/css/style.scss` in your site
-2. Add the following content to the top of the file, exactly as shown:
-    ```scss
+1. 在你的站创建一个名为`/assets/css/style.scss`的文件
+2. 添加以下内容到文件顶部，如下所示：
+   ```scss
     ---
     ---
 
     @import "{{ site.theme }}";
-    ```
-3. Add any custom CSS (or Sass, including imports) you'd like immediately after the `@import` line
+   ```
+3. 紧接把你想要的自定义的CSS (或 Sass, 包括 imports) 添加到`@import`该行后面
 
-### Layouts
+### 布局
 
-If you'd like to change the theme's HTML layout:
+如果你想改变主题的HTML布局的话，按以下步骤进行:
 
-1. [Copy the original template](https://github.com/pages-themes/cayman/blob/master/_layouts/default.html) from the theme's repository<br />(*Pro-tip: click "raw" to make copying easier*)
-2. Create a file called `/_layouts/default.html` in your site
-3. Paste the default layout content copied in the first step
-4. Customize the layout as you'd like
+1. 从主题的repository中[拷贝源模板](https://github.com/pages-themes/cayman/blob/master/_layouts/default.html) <br />(*提示: 点击"raw" 更易拷贝*)
+2. 在你的站创建一个名为`/_layouts/default.html`的文件
+3. 第一步是粘贴默认布局的拷贝内容
+4. 自定义你想要的布局
 
-## Roadmap
+## 路线图
 
-See the [open issues](https://github.com/pages-themes/cayman/issues) for a list of proposed features (and known issues).
+阅读 [开源组织](https://github.com/pages-themes/cayman/issues) 以了解主题的相关特性 .
 
-## Project philosophy
+## 项目目的
 
-The Cayman theme is intended to make it quick and easy for GitHub Pages users to create their first (or 100th) website. The theme should meet the vast majority of users' needs out of the box, erring on the side of simplicity rather than flexibility, and provide users the opportunity to opt-in to additional complexity if they have specific needs or wish to further customize their experience (such as adding custom CSS or modifying the default layout). It should also look great, but that goes without saying.
+Cayman主题意在帮助GitHub Pages用户简易快速建立自己的第一(百)个网站。 该主题主要迎合大多数用户的需要，让用户跳出框架，以简单化替代复杂化。同时，提供用户额外完全可选的机会以让他们实现一些特殊需求或更加灵活的自定义想要的主题（如天津自定义CSS或修改默认布局）。这看起是个很不错的主题，应该是无可厚非的。
 
-## Contributing
+## 贡献
 
-Interested in contributing to Cayman? We'd love your help. Cayman is an open source project, built one contribution at a time by users like you. See [the CONTRIBUTING file](CONTRIBUTING.md) for instructions on how to contribute.
+有兴趣为Cayman主题贡献一份吗? 我们很希望你的帮忙。Cayman是一个开源项目，每次的贡献者都是像你这样的人。阅读 [贡献文档](CONTRIBUTING.md) 让你知道如何把你的贡献分享出来。
 
-### Previewing the theme locally
+### 本地预览主题
 
-If you'd like to preview the theme locally (for example, in the process of proposing a change):
+如果你想在本地预览主题 (例如, 在修改的过程中)，按以下步骤进行:
 
-1. Clone down the theme's repository (`git clone https://github.com/pages-themes/cayman`)
-2. `cd` into the theme's directory
-3. Run `script/bootstrap` to install the necessary dependencies
-4. Run `bundle exec jekyll serve` to start the preview server
-5. Visit [`localhost:4000`](http://localhost:4000) in your browser to preview the theme
+1. 克隆下载主题的repository (`git clone https://github.com/pages-themes/cayman`)
+2. `cd` 到主题的当前路径
+3. 运行 `script/bootstrap` 来安装必要的依赖
+4. 运行 `bundle exec jekyll serve` 开始预览服务器
+5. 浏览器通过 [`localhost:4000`](http://localhost:4000) 端口预览主题
 
-### Running tests
+### 测试
 
-The theme contains a minimal test suite, to ensure a site with the theme would build successfully. To run the tests, simply run `script/cibuild`. You'll need to run `script/bootstrap` one before the test script will work.
+该主题包含一个最小的测试套件，可以判断使用该主题的站是否搭建成功。运行`script/cibuild`，获取测试结果。在脚本测试之前，你需要运行 `script/bootstrap`一次，不然脚本测试不工作。
