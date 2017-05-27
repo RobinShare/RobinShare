@@ -3,3 +3,5 @@ description: 你是喜欢iOS呢，还是Android，抑或后台？二次开发也
 #show_downloads: fault
 #google_analytics:
 #theme: 
+
+theme: jekyll-theme-cayman
