@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## 谷歌Kotlin向Java问好
+## Android开发
 
 ### [安装 Android Studio](https://developer.android.com/studio/install.html)
 
