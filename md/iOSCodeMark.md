@@ -12,6 +12,14 @@ layout: default
 
 
 
+[HowToGetYourMacBook'sJenkinsAndTomcat](iOSCodeMark/Jenkins And Tomcat Setting On Your MacBook.md)
+
+
+
+------
+
+
+
 [ReactiveCocoa入门到实战篇之第二周](iOSCodeMark/第二周PDF.pdf)
 
 [ReactiveCocoa入门到实战篇之第三周](iOSCodeMark/第三周PDF.pdf)
