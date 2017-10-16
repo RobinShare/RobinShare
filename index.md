@@ -68,11 +68,3 @@ MacBook**愉快的创游**世界
 
 
 
-## 电商无烟战火
-
-# [商战自古延今无人不晓](md/electricityArticleMark.md)
-
->  1688，Amazon，EBay，Wish or 速卖通 ？
->
->  能捉到老鼠的就是好猫。
-
