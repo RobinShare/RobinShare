@@ -29,7 +29,7 @@ layout: default
 
 
 
-#蓝牙
+# 蓝牙
 
 ### [GATTProfile简介](iOSCodeMark/GATTProfile简介.md)
 
@@ -55,7 +55,7 @@ layout: default
 
 
 
-#基础
+# 基础
 
 ### [ViewController的生命周期](iOSCodeMark/ViewController的生命周期.md)
 
@@ -129,7 +129,7 @@ layout: default
 
 
 
-#安全
+# 安全
 
 ### [SSL/TLS协议运行机制的概述](iOSCodeMark/SSL和TLS协议运行机制的概述.md)
 
@@ -143,7 +143,7 @@ layout: default
 
 
 
-#工具
+# 工具
 
 ### [Git使用](iOSCodeMark/Git使用.md)
 
@@ -157,7 +157,7 @@ layout: default
 
 
 
-#视图与组件
+# 视图与组件
 
 ### [iOS开发UI篇之使用Quartz2D绘制椭圆进度条](iOSCodeMark/iOS开发UI篇之使用Quartz2D绘制椭圆进度条.md)
 
@@ -171,7 +171,7 @@ layout: default
 
 
 
-#其它
+# 其它
 
 ### [如何在Xcode8搭建Python环境](iOSCodeMark/Xcode8搭建Python环境.md)
 
