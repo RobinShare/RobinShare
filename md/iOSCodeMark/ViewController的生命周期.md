@@ -1,4 +1,4 @@
-# iOS 的生命周期
+# ViewController的生命周期
 
 init、viewDidLoad、viewWillAppear、viewDidAppear、viewWillDisappear、viewDidDisappear的执行顺序：
 

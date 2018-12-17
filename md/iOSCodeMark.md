@@ -167,7 +167,6 @@ HTTPS从最终的数据解析的角度，与HTTP没有任何的区别，HTTPS就
 
 
 
-
 ------
 
 
@@ -214,7 +213,6 @@ HTTPS从最终的数据解析的角度，与HTTP没有任何的区别，HTTPS就
 -  自定义一些控件
 -  不添加UI控件的情况下，使UI内容更丰富
 -  ……
-
 
 ------
 
@@ -302,7 +300,7 @@ Runtime是开源的，任何时候你都可以从http://opensource.apple.com获�
 
 
 
-### [iOS 的生命周期](iOSCodeMark/iOS 的生命周期.md)
+### [ViewController的生命周期](iOSCodeMark/ViewController的生命周期.md)
 
 init、viewDidLoad、viewWillAppear、viewDidAppear、viewWillDisappear、viewDidDisappear的执行顺序
 
