@@ -2,21 +2,21 @@
 layout: default
 ---
 
-_从来_没有**开始**，_从来_没有~~结束~~。 永恒的变，才是不变的真理。
+永恒的变，才是不变的真理。
 
 
 
-# [代码看世界](md/iOSCodeMark.md)
+# [iOS 之 OC](md/iOSOCMark.md)
 
->  代码是死的，人是活的。
+>  Objective-C，
 >
->  人把灵魂赋予代码，代码将得永生。
+>  不朽，存在过就够了。
 
 
 
-# [做斜杠青年](md/others.md)
+# [iOS 之 Swift](md/iOSSwiftMark.md)
 
->  斜杠青年，
+>  雨燕，
 >
->  筑就不悔的人生。
+>  我来迟了，2019。
 
